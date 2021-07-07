@@ -190,4 +190,4 @@ $("#openModalButton").click(toggleModaltoCreateCard);
 $("#openModalButton").tooltip();
 
 $("#saveEditbtn").click(createEditCard);
-$(window).load(getTodosRequest());
+$(window).on("load", getTodosRequest());

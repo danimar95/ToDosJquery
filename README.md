@@ -18,7 +18,7 @@ As I'm working in the development of my portfolio, this is my second created app
 
 The app only contains three files, one html, one css and one javascript, so it is relly simple to make it run. You just have to download the files and make sure you conserve the original file names as they are called from each other.
 
-As clarification if you want to update a new task that you added , it wont't work and that is because as it uses a fake API it doesn't update a new task that doesn't exist on the API. It is the only case but otherwise than that i works fine.
+As clarification if you want to update a new task that you added , it wont't work and that is because as it uses a fake API it doesn't update a new task that doesn't exist on the API. It is the only case but otherwise than that it works fine.
 
 ## Desktop view
 

@@ -89,6 +89,15 @@ div.col-2 {
   margin-top: 5rem;
 }
 
+button.swal2-styled.swal2-confirm {
+  background-color: #abcfd8;
+}
+
+div.swal2-icon.swal2-warning {
+  border-color: #ca321e;
+  color: #ca321e;
+}
+
 @media only screen and (max-width: 768px) {
   .static {
     height: 10%;

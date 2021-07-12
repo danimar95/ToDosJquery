@@ -171,13 +171,13 @@ function createEditCard (event) {
     if (taskTitle.length > 0) {
       postTodosRequest({ title:taskTitle, completed:taskCheckbox }); 
     } else {
-      alert("Please add a task title !");
+      swal.fire("Warning","Please add a task title!","warning");
     }
   } else {
     if (taskTitle.length > 0) {
       putTodosRequest({ title:taskTitle, completed:taskCheckbox });
     } else {
-      alert("Please add a task title !");
+      swal.fire("Warning","Please add a task title!","warning");
     }
   }
   $("#myModal").modal('toggle');
